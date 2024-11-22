@@ -1,0 +1,39 @@
+.navbar{
+    height: 12vh;
+}
+
+.logo{
+    width: 16%;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.rent h2{
+    text-align: center;
+}
+.rent p{
+    font-size: 18px;
+}
+.log{
+    background-color: lightgrey;
+    height: 90vh;
+    padding-top: 60px;
+    margin: auto;
+}
+.form-group{
+    width: 50%;
+    margin: auto;
+}
+
+.btn{
+    margin-left: 190px;
+}
+
+@media screen and (max-width: 1000px)
+{
+    .btn{
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,36 @@
+.navbar{
+    height: 12vh;
+}
+
+.logo{
+    width: 16%;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.carousel-inner img {
+   align-items: center;
+    width: 70%;
+    height: 70vh;
+}
+
+.carousel-caption{
+    font-weight: 900;
+}
+
+.reed{
+    color: #c1d64d;
+}
+.red{
+    color: #c1d64d;
+    font-size: 20px;
+}
+
+th{
+    font-size: 20px;
+}
+tr{
+    font-size: 20px;
+}

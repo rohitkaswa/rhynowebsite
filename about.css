@@ -1,0 +1,28 @@
+.navbar{
+    height: 12vh;
+}
+
+.logo{
+    width: 16%;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.detail{
+    padding-left: 20px;
+}
+.centered{
+    text-align: center;
+    font-weight: bold;
+}
+
+.info img{
+    width: 90%;
+    height: 300px;
+    border-radius: 30px;
+    border-style:groove;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

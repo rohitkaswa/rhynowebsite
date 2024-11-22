@@ -1,0 +1,26 @@
+.navbar{
+    height: 12vh;
+}
+
+.logo{
+    width: 16%;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.front{
+    padding-top: 20px;
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+th{
+    font-size: 20px;
+}
+tr{
+    font-size: 20px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="rent.css" class="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>Rent</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <img src="image\img.png" alt="" class="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PRODUCTS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="se03.html">SE03</a>
+            <a class="dropdown-item" href="se03lite.html">SE03 LITE</a>
+            <a class="dropdown-item" href="se03max.html">SE03 MAX</a>
+            <a class="dropdown-item" href="compare.html">Compare All</a>
+            </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">LOG IN</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" id="search-form" action="search7.php" method="post">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" id="search-input">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    </div>
+</nav>
+
+    <div class="rent">
+        <h2>Rent Our Vehicles</h2>
+        <p>   Explore the roars of Rhyno at your own pace with our rental options! Test the waters with our flexible rental model, available for a week or a month, allowing you to experience the Rhyno first hand before committing. Simply visit our authorized dealerships to unlock this opportunity.
+        </p>
+        <p>Additionally, we're redefining campus commuting with our rental fleet tailored for college students. Navigate your daily commute effortlessly by renting Rhyno vehicles on an hourly basis through our user-friendly mobile app. Embrace the freedom to ride and explore a new dimension in sustainable and convenient transportation.
+        </p>
+    </div>
+
+    <div class="log"> 
+        <form action="rent.php" method="post">
+           <div class="form-group">
+             <label for="name">Full Name:-</label>
+             <input type="name" class="form-control" placeholder="Enter Name" id="user" name="user">
+           </div>
+           <div class="form-group">
+               <label for="email">Email address:-</label>
+               <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
+           </div>
+           <div class="form-group">
+               <label for="mobile">Mobile No.:-:</label>
+               <input type="mobile" class="form-control" placeholder="Enter Mobile" id="mobile" name="mobile">
+           </div>
+           <div class="form-group">
+               <label for="city">City:-</label>
+               <input type="city" class="form-control" placeholder="Enter City" id="City" name="city">
+           </div>
+           <div class="form-group">
+            <label for="vehicle">Vehicle:-</label>
+           <select name="vehicle" class="form-control">
+            <option value="" disabled selected>Select Vehicle</option>
+            <option value="Model X">SE03</option>
+            <option value="Model Y">SE03 Lite</option>
+            <option value="Model Z">SE03 Max</option>
+          </select><br>
+        </div>
+           <div class="form-group">
+            <label for="borrow">Borrow Date:-</label>
+            <input type="date" class="form-control" placeholder="Enter Date" id="borrow" name="borrow">
+           </div>
+           <div class="form-group">
+             <label for="returns">Return Date:-</label>
+             <input type="date" class="form-control" placeholder="Enter Date" id="returns" name="returns">
+            </div>
+           <div class="btn">
+               <button type="submit" class="btn btn-success">Rent Now</button>
+           </div>
+         </form>
+       </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
